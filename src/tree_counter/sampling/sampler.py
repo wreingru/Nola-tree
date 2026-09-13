@@ -99,3 +99,38 @@ def points_summary(points: Iterable[SamplePoint]) -> dict:
         "ids": [p.id for p in pts],
         "zips": sorted({p.zip for p in pts if p.zip}),
     }
+
+
+def interpolate_segment(
+    start: tuple[float, float],
+    end: tuple[float, float],
+    *,
+    n: int = 10,
+    id_prefix: str = "pt",
+    zip_code: str = "",
+    zip_split_lon: float | None = None,
+    zip_east: str = "",
+    zip_west: str = "",
+    label_prefix: str = "",
+) -> list[SamplePoint]:
+    """Evenly interpolate sample points along a lat/lon segment (inclusive)."""
+    if n < 2:
+        raise ValueError("n must be >= 2")
+    points: list[SamplePoint] = []
+    for i in range(n):
+        t = i / (n - 1)
+        lat = start[0] + t * (end[0] - start[0])
+        lon = start[1] + t * (end[1] - start[1])
+        z = zip_code
+        if zip_split_lon is not None:
+            z = zip_east if lon > zip_split_lon else zip_west
+        points.append(
+            SamplePoint(
+                id=f"{id_prefix}{i+1:02d}",
+                lat=round(lat, 6),
+                lon=round(lon, 6),
+                zip=z,
+                label=f"{label_prefix}{i+1:02d}" if label_prefix else "",
+            )
+        )
+    return points

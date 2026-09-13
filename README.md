@@ -4,7 +4,7 @@ Count **New Orleans** street trees from **Google Street View** imagery and compa
 
 > **v1 is NOLA-only.** ZIP-level comparisons are labeled **`sample≠census`**: a handful of Street View panoramas is not a citywide tree census.
 
-Target repo (do not push from this workspace unless asked): https://github.com/wreingru/Nola-tree
+Repo: https://github.com/wreingru/Nola-tree
 
 ## Features
 
@@ -14,6 +14,7 @@ Target repo (do not push from this workspace unless asked): https://github.com/w
 - Cross-heading dedupe; optional nearby GIS inventory match when a cache is present
 - Baked-in 2019 ZIP site counts and top species benchmarks (no PDF required at runtime)
 - `tree-counter run --dry-run` works without an API key
+- Agent handoff queue: claim one corridor/tile at a time (`queue next` → `run-unit` → `queue complete`)
 
 ## Official inventory (benchmark)
 
@@ -101,6 +102,34 @@ Street View sampling **under- and over-counts** relative to the 2019 field inven
 
 Reports always mark ZIP comparisons as **`sample≠census`**.
 
+
+## Agent handoff workflow
+
+Agents should stay within a small token/data budget: **claim one street segment or sub-ZIP tile**, produce a compact summary, mark it complete, then stop so the next agent continues from the queue.
+
+Layout:
+
+```
+data/agent_queue/
+  queue.json                 # units: pending | in_progress | complete | skipped
+  summaries/<unit_id>.json   # compact counts, paths, tuning notes (no image blobs)
+  PROGRESS.md                # human+agent one-pager
+```
+
+Commands:
+
+```bash
+tree-counter queue init
+tree-counter queue next                 # claim next pending; prints JSON + markdown brief
+tree-counter run-unit --unit <id> --dry-run
+tree-counter queue complete --unit <id> # refreshes PROGRESS.md; prints next unit id
+tree-counter queue status
+```
+
+First corridor unit: **`st-claude-poland-spain`** (St. Claude Avenue from Poland Ave to Spain Street, Bywater/Marigny; ZIPs 70117→70116). Fixture points: `data/fixtures/st_claude_poland_spain.csv`.
+
+Token budget intent: unit briefs and summaries should stay readable in roughly **1–2k tokens**. Cap sample points per unit (default 8–12).
+
 ## Project layout
 
 ```
@@ -115,6 +144,7 @@ src/tree_counter/
 data/
   inventory_summary.json
   fixtures/           # sample points + placeholder images
+  agent_queue/        # durable handoff queue + PROGRESS.md
 tests/
 ```
 

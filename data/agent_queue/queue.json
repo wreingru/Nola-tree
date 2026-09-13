@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-13T17:18:04+00:00",
+  "description": "Agent handoff queue: claim one unit at a time; keep summaries under ~2k tokens.",
+  "units": [
+    {
+      "id": "st-claude-poland-spain",
+      "kind": "street_segment",
+      "status": "complete",
+      "street_name": "St. Claude Avenue",
+      "zip": "70117",
+      "zips": [
+        "70117",
+        "70116"
+      ],
+      "endpoints": {
+        "start": {
+          "name": "Poland Avenue \u2229 St. Claude",
+          "lat": 29.96438,
+          "lon": -90.03017
+        },
+        "end": {
+          "name": "Spain Street \u2229 St. Claude",
+          "lat": 29.96877,
+          "lon": -90.05346
+        }
+      },
+      "bbox": [
+        -90.05346,
+        29.96438,
+        -90.03017,
+        29.96877
+      ],
+      "sample_points_path": "data/fixtures/st_claude_poland_spain.csv",
+      "sample_limit": 10,
+      "notes": "First corridor unit: St. Claude from Poland Ave (Bywater) to Spain St (Marigny). Interpolated viewpoints along the avenue; both ZIPs 70117\u219270116.",
+      "summary_path": "data/agent_queue/summaries/st-claude-poland-spain.json",
+      "claimed_at": "2026-09-13T17:18:04+00:00",
+      "completed_at": "2026-09-13T17:18:04+00:00",
+      "priority": 1
+    },
+    {
+      "id": "st-claude-spain-esplanade",
+      "kind": "street_segment",
+      "status": "pending",
+      "street_name": "St. Claude Avenue",
+      "zip": "70116",
+      "zips": [
+        "70116"
+      ],
+      "endpoints": {
+        "start": {
+          "name": "Spain Street \u2229 St. Claude",
+          "lat": 29.96877,
+          "lon": -90.05346
+        },
+        "end": {
+          "name": "Esplanade Ave \u2229 St. Claude (approx)",
+          "lat": 29.9705,
+          "lon": -90.062
+        }
+      },
+      "bbox": [
+        -90.062,
+        29.968,
+        -90.053,
+        29.972
+      ],
+      "sample_points_path": "",
+      "sample_limit": 8,
+      "notes": "Adjacent block west of Spain toward Esplanade (pending; sample file TBD).",
+      "summary_path": null,
+      "claimed_at": null,
+      "completed_at": null,
+      "priority": 2
+    },
+    {
+      "id": "st-claude-mazant-poland",
+      "kind": "street_segment",
+      "status": "pending",
+      "street_name": "St. Claude Avenue",
+      "zip": "70117",
+      "zips": [
+        "70117"
+      ],
+      "endpoints": {
+        "start": {
+          "name": "Mazant St \u2229 St. Claude (approx)",
+          "lat": 29.9625,
+          "lon": -90.022
+        },
+        "end": {
+          "name": "Poland Avenue \u2229 St. Claude",
+          "lat": 29.96438,
+          "lon": -90.03017
+        }
+      },
+      "bbox": [
+        -90.0302,
+        29.9615,
+        -90.022,
+        29.965
+      ],
+      "sample_points_path": "",
+      "sample_limit": 8,
+      "notes": "Adjacent block east of Poland toward Mazant (pending; sample file TBD).",
+      "summary_path": null,
+      "claimed_at": null,
+      "completed_at": null,
+      "priority": 3
+    },
+    {
+      "id": "subzip-70117-stclaude-east",
+      "kind": "subzip",
+      "status": "pending",
+      "street_name": "St. Claude corridor tile",
+      "zip": "70117",
+      "zips": [
+        "70117"
+      ],
+      "endpoints": {},
+      "bbox": [
+        -90.042,
+        29.962,
+        -90.028,
+        29.97
+      ],
+      "sample_points_path": "",
+      "sample_limit": 10,
+      "notes": "Sub-ZIP tile covering eastern St. Claude in 70117 (Bywater).",
+      "summary_path": null,
+      "claimed_at": null,
+      "completed_at": null,
+      "priority": 10
+    },
+    {
+      "id": "subzip-70116-stclaude-west",
+      "kind": "subzip",
+      "status": "pending",
+      "street_name": "St. Claude corridor tile",
+      "zip": "70116",
+      "zips": [
+        "70116"
+      ],
+      "endpoints": {},
+      "bbox": [
+        -90.055,
+        29.965,
+        -90.042,
+        29.972
+      ],
+      "sample_points_path": "",
+      "sample_limit": 10,
+      "notes": "Sub-ZIP tile covering western St. Claude in 70116 (Marigny).",
+      "summary_path": null,
+      "claimed_at": null,
+      "completed_at": null,
+      "priority": 11
+    }
+  ]
+}

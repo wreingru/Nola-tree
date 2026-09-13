@@ -1,0 +1,11 @@
+id,lat,lon,zip,label
+sc01,29.964380,-90.030170,70117,st_claude_at_poland
+sc02,29.964868,-90.032758,70117,st_claude_poland_spain_02
+sc03,29.965356,-90.035346,70117,st_claude_poland_spain_03
+sc04,29.965843,-90.037933,70117,st_claude_poland_spain_04
+sc05,29.966331,-90.040521,70117,st_claude_poland_spain_05
+sc06,29.966819,-90.043109,70116,st_claude_poland_spain_06
+sc07,29.967307,-90.045697,70116,st_claude_bywater_mid
+sc08,29.967794,-90.048284,70116,st_claude_poland_spain_08
+sc09,29.968282,-90.050872,70116,st_claude_poland_spain_09
+sc10,29.968770,-90.053460,70116,st_claude_at_spain

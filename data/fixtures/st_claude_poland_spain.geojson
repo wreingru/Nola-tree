@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sc01",
+        "zip": "70117",
+        "label": "st_claude_at_poland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.03017,
+          29.96438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sc02",
+        "zip": "70117",
+        "label": "st_claude_poland_spain_02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.032758,
+          29.964868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sc03",
+        "zip": "70117",
+        "label": "st_claude_poland_spain_03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.035346,
+          29.965356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sc04",
+        "zip": "70117",
+        "label": "st_claude_poland_spain_04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.037933,
+          29.965843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sc05",
+        "zip": "70117",
+        "label": "st_claude_poland_spain_05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.040521,
+          29.966331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sc06",
+        "zip": "70116",
+        "label": "st_claude_poland_spain_06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.043109,
+          29.966819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sc07",
+        "zip": "70116",
+        "label": "st_claude_bywater_mid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.045697,
+          29.967307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sc08",
+        "zip": "70116",
+        "label": "st_claude_poland_spain_08"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.048284,
+          29.967794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sc09",
+        "zip": "70116",
+        "label": "st_claude_poland_spain_09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.050872,
+          29.968282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sc10",
+        "zip": "70116",
+        "label": "st_claude_at_spain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05346,
+          29.96877
+        ]
+      }
+    }
+  ]
+}

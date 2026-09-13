@@ -1,0 +1,67 @@
+{
+  "unit_id": "st-claude-poland-spain",
+  "generated_at": "2026-09-13T17:18:04+00:00",
+  "dry_run": true,
+  "detector": "opencv_heuristic",
+  "zip_code": "70117",
+  "sample_points_used": 10,
+  "sample_point_ids": [
+    "sc01",
+    "sc02",
+    "sc03",
+    "sc04",
+    "sc05",
+    "sc06",
+    "sc07",
+    "sc08",
+    "sc09",
+    "sc10"
+  ],
+  "images_analyzed": 40,
+  "raw_detections": 57,
+  "deduped_detections": 18,
+  "mean_trees_per_sample_point": 1.8,
+  "nearby_inventory_matches": 6,
+  "gis_points_available": 11,
+  "comparison_label": "sample\u2260census",
+  "artifacts": {
+    "report_json": "/workspace/Nola-tree/artifacts/units/st-claude-poland-spain/report.json",
+    "report_md": "/workspace/Nola-tree/artifacts/units/st-claude-poland-spain/report.md",
+    "images_dir": "/workspace/Nola-tree/artifacts/units/st-claude-poland-spain/images"
+  },
+  "errors": [],
+  "tuning": {
+    "corridor": "St. Claude Avenue Poland\u2192Spain",
+    "sample_limit": 10,
+    "headings": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "notes": [
+      "Baseline OpenCV thresholds kept; counts vs nearby GIS cache look plausible for a fixture dry-run."
+    ],
+    "before": {
+      "deduped_detections": 18,
+      "mean_trees_per_sample_point": 1.8,
+      "nearby_inventory_matches": 6,
+      "detector_defaults": {
+        "min_area": 400,
+        "max_area_frac": 0.35,
+        "min_confidence": 0.25
+      }
+    },
+    "after": {
+      "deduped_detections": 18,
+      "mean_trees_per_sample_point": 1.8,
+      "nearby_inventory_matches": 6,
+      "detector_defaults": {
+        "min_area": 400,
+        "max_area_frac": 0.35,
+        "min_confidence": 0.25
+      }
+    }
+  },
+  "next_hint": "Call `tree-counter queue next` after marking this unit complete."
+}

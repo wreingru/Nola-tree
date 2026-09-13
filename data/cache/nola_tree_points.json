@@ -1,10 +1,82 @@
 {
-  "count": 5,
+  "count": 11,
   "points": [
-    {"lat": 29.92605, "lon": -90.10802, "object_id": "1", "species": "Quercus virginiana", "source": "fixture_cache"},
-    {"lat": 29.92610, "lon": -90.10790, "object_id": "2", "species": "Lagerstroemia indica", "source": "fixture_cache"},
-    {"lat": 29.92525, "lon": -90.10055, "object_id": "3", "species": "Taxodium distichum", "source": "fixture_cache"},
-    {"lat": 29.92450, "lon": -90.09500, "object_id": "4", "species": "Pinus elliottii", "source": "fixture_cache"},
-    {"lat": 29.95000, "lon": -90.08000, "object_id": "5", "species": "Ilex hybrid", "source": "fixture_cache"}
+    {
+      "lat": 29.92605,
+      "lon": -90.10802,
+      "object_id": "1",
+      "species": "Quercus virginiana",
+      "source": "fixture_cache"
+    },
+    {
+      "lat": 29.9261,
+      "lon": -90.1079,
+      "object_id": "2",
+      "species": "Lagerstroemia indica",
+      "source": "fixture_cache"
+    },
+    {
+      "lat": 29.92525,
+      "lon": -90.10055,
+      "object_id": "3",
+      "species": "Taxodium distichum",
+      "source": "fixture_cache"
+    },
+    {
+      "lat": 29.9245,
+      "lon": -90.095,
+      "object_id": "4",
+      "species": "Pinus elliottii",
+      "source": "fixture_cache"
+    },
+    {
+      "lat": 29.95,
+      "lon": -90.08,
+      "object_id": "5",
+      "species": "Ilex hybrid",
+      "source": "fixture_cache"
+    },
+    {
+      "lat": 29.9644,
+      "lon": -90.0302,
+      "object_id": "sc-g1",
+      "species": "Quercus virginiana",
+      "source": "fixture_cache"
+    },
+    {
+      "lat": 29.9645,
+      "lon": -90.03005,
+      "object_id": "sc-g2",
+      "species": "Lagerstroemia indica",
+      "source": "fixture_cache"
+    },
+    {
+      "lat": 29.96633,
+      "lon": -90.04052,
+      "object_id": "sc-g3",
+      "species": "Taxodium distichum",
+      "source": "fixture_cache"
+    },
+    {
+      "lat": 29.96731,
+      "lon": -90.0457,
+      "object_id": "sc-g4",
+      "species": "Quercus virginiana",
+      "source": "fixture_cache"
+    },
+    {
+      "lat": 29.96877,
+      "lon": -90.05346,
+      "object_id": "sc-g5",
+      "species": "Ilex hybrid",
+      "source": "fixture_cache"
+    },
+    {
+      "lat": 29.9688,
+      "lon": -90.0533,
+      "object_id": "sc-g6",
+      "species": "Lagerstroemia indica",
+      "source": "fixture_cache"
+    }
   ]
 }
