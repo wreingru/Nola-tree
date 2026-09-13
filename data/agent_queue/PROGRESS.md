@@ -34,3 +34,11 @@ tree-counter queue status
 
 Queue file: `data/agent_queue/queue.json`
 Summaries: `data/agent_queue/summaries/<unit_id>.json`
+
+## Latest live run
+
+- Unit: `st-claude-poland-spain`
+- 10 newest outdoor Street View panos (dates 2025-04 → 2025-12)
+- Raw detections: 39; deduped: 8
+- Report: `data/agent_queue/live_runs/st-claude-poland-spain-live.md`
+- Updated: `2026-09-13T17:27:59.880268+00:00`

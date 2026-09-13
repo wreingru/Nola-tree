@@ -1,0 +1,122 @@
+{
+  "run": {
+    "unit": "st-claude-poland-spain",
+    "mode": "live",
+    "created_at": "2026-09-13T17:27:17.225622+00:00",
+    "image_count": 10,
+    "candidate_metadata_scanned": 40,
+    "selection": "newest unique outdoor panos along Poland\u2192Spain corridor",
+    "corridor_heading": 282,
+    "date_min": "2025-04",
+    "date_max": "2025-12",
+    "note": "Exactly 10 live Street View Static images (no fixtures)."
+  },
+  "images": [
+    {
+      "id": "live01",
+      "path": "artifacts/live_st_claude_poland_spain/images/live01_282.jpg",
+      "heading": 282,
+      "lat": 29.96479724703452,
+      "lon": -90.03189267431264,
+      "pano_id": "rM5gv4kISpgJsXQXXf4s-A",
+      "date": "2025-04",
+      "source": "api"
+    },
+    {
+      "id": "live02",
+      "path": "artifacts/live_st_claude_poland_spain/images/live02_282.jpg",
+      "heading": 282,
+      "lat": 29.96485856200035,
+      "lon": -90.03261578986829,
+      "pano_id": "dl0IBUNruM_nmhAVu-h_DA",
+      "date": "2025-10",
+      "source": "api"
+    },
+    {
+      "id": "live03",
+      "path": "artifacts/live_st_claude_poland_spain/images/live03_282.jpg",
+      "heading": 282,
+      "lat": 29.96499558446417,
+      "lon": -90.03362212170549,
+      "pano_id": "boZRQiMvZ8Rkcf3FH1RB0Q",
+      "date": "2025-10",
+      "source": "api"
+    },
+    {
+      "id": "live04",
+      "path": "artifacts/live_st_claude_poland_spain/images/live04_282.jpg",
+      "heading": 282,
+      "lat": 29.96548770022111,
+      "lon": -90.03493903786655,
+      "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+      "date": "2025-04",
+      "source": "api"
+    },
+    {
+      "id": "live05",
+      "path": "artifacts/live_st_claude_poland_spain/images/live05_282.jpg",
+      "heading": 282,
+      "lat": 29.96574050925841,
+      "lon": -90.03605787892866,
+      "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+      "date": "2025-04",
+      "source": "api"
+    },
+    {
+      "id": "live06",
+      "path": "artifacts/live_st_claude_poland_spain/images/live06_282.jpg",
+      "heading": 282,
+      "lat": 29.96576026933491,
+      "lon": -90.03733706244856,
+      "pano_id": "IlxPiN0zVefZDZCDqBt7mg",
+      "date": "2025-04",
+      "source": "api"
+    },
+    {
+      "id": "live07",
+      "path": "artifacts/live_st_claude_poland_spain/images/live07_282.jpg",
+      "heading": 282,
+      "lat": 29.96604335865545,
+      "lon": -90.03891947199541,
+      "pano_id": "8eiBYtvzqCgNI8Vjn-73ag",
+      "date": "2025-04",
+      "source": "api"
+    },
+    {
+      "id": "live08",
+      "path": "artifacts/live_st_claude_poland_spain/images/live08_282.jpg",
+      "heading": 282,
+      "lat": 29.96705309679113,
+      "lon": -90.04438822252766,
+      "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+      "date": "2025-12",
+      "source": "api"
+    },
+    {
+      "id": "live09",
+      "path": "artifacts/live_st_claude_poland_spain/images/live09_282.jpg",
+      "heading": 282,
+      "lat": 29.96741074783256,
+      "lon": -90.04618433896275,
+      "pano_id": "-NUNyJ3KQgjY6_eNAvusUQ",
+      "date": "2025-12",
+      "source": "api"
+    },
+    {
+      "id": "live10",
+      "path": "artifacts/live_st_claude_poland_spain/images/live10_282.jpg",
+      "heading": 282,
+      "lat": 29.96820911418117,
+      "lon": -90.05037945166292,
+      "pano_id": "L1iOmqa971Eb0RBhM6g6qw",
+      "date": "2025-10",
+      "source": "api"
+    }
+  ],
+  "detection": {
+    "raw": 39,
+    "deduped": 8,
+    "mean_per_image": 3.9
+  },
+  "comparison_label": "sample\u2260census"
+}
