@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tree-counter"
+version = "0.1.0"
+description = "Count New Orleans street trees from Google Street View and compare to the official city inventory"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "wreingru" }]
+dependencies = [
+  "click>=8.1",
+  "httpx>=0.27",
+  "numpy>=1.26",
+  "opencv-python-headless>=4.8",
+  "python-dotenv>=1.0",
+  "Pillow>=10.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "pytest-cov>=4.1"]
+
+[project.scripts]
+tree-counter = "tree_counter.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tree_counter = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

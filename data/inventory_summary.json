@@ -1,0 +1,43 @@
+{
+  "source": "ArborPro / City of New Orleans Tree Inventory Summary Report",
+  "date": "2019-08-20",
+  "pdf_url": "https://nola.gov/nola/media/PPW/Total-Tree-Inventory-Summary-Report.pdf",
+  "total_sites": 105813,
+  "total_trees": 104117,
+  "stumps": 1696,
+  "street_row": 98610,
+  "street_row_pct": 93.2,
+  "parks": 7203,
+  "parks_pct": 6.8,
+  "species_count": 352,
+  "top_species": [
+    {"name": "crape myrtle", "count": 30244, "pct": 28.6},
+    {"name": "southern live oak", "count": 21775, "pct": 20.6},
+    {"name": "bald cypress", "count": 5409, "pct": 5.1},
+    {"name": "hybrid holly", "count": 3529, "pct": 3.3},
+    {"name": "slash pine", "count": 3098, "pct": 2.9}
+  ],
+  "zip_site_counts": {
+    "70112": 1956,
+    "70113": 2142,
+    "70114": 4476,
+    "70115": 13757,
+    "70116": 3956,
+    "70117": 6716,
+    "70118": 11214,
+    "70119": 10772,
+    "70122": 11369,
+    "70124": 11545,
+    "70125": 6022,
+    "70126": 3843,
+    "70127": 3881,
+    "70128": 1914,
+    "70129": 1489,
+    "70130": 6030,
+    "70131": 4731
+  },
+  "notes": [
+    "ZIP counts are inventory sites (trees + stumps), not Street View sample estimates.",
+    "Sample-based Street View counts are not a census; compare only as a rough signal."
+  ]
+}

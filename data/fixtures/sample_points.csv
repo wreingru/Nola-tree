@@ -1,0 +1,4 @@
+id,lat,lon,zip,label
+a,29.9260,-90.1080,70115,magazine_near_napoleon
+b,29.9252,-90.1005,70115,st_charles_near_louisiana
+empty,29.9245,-90.0950,70115,open_block_fixture

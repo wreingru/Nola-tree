@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"id": "a", "zip": "70115", "label": "magazine_near_napoleon"},
+      "geometry": {"type": "Point", "coordinates": [-90.1080, 29.9260]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"id": "b", "zip": "70115", "label": "st_charles_near_louisiana"},
+      "geometry": {"type": "Point", "coordinates": [-90.1005, 29.9252]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"id": "empty", "zip": "70115", "label": "open_block_fixture"},
+      "geometry": {"type": "Point", "coordinates": [-90.0950, 29.9245]}
+    }
+  ]
+}
