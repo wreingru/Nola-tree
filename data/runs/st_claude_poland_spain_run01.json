@@ -1,0 +1,2167 @@
+{
+  "run_id": "st-claude-poland-spain-run01",
+  "title": "First live run \u2014 St. Claude Poland Ave \u2192 Spain St (40 points)",
+  "created_at": "2026-09-13T17:33:55.943276+00:00",
+  "corridor": {
+    "street": "St. Claude Avenue",
+    "from": "Poland Avenue",
+    "to": "Spain Street",
+    "start": {
+      "lat": 29.96438,
+      "lon": -90.03017
+    },
+    "end": {
+      "lat": 29.96877,
+      "lon": -90.05346
+    },
+    "heading_deg": 282,
+    "zips": [
+      "70117",
+      "70116"
+    ]
+  },
+  "method": {
+    "mode": "live",
+    "metadata_points": 40,
+    "images_fetched": 10,
+    "selection": "newest unique outdoor panos from the 40-point scan",
+    "detector": "opencv_heuristic",
+    "species_policy": "All trees detected in this first-run file are recorded as American sycamore (Platanus occidentalis)."
+  },
+  "summary": {
+    "points_scanned": 40,
+    "points_with_coverage": 40,
+    "points_imaged": 10,
+    "trees_raw": 39,
+    "trees_deduped": 8,
+    "species": "American sycamore",
+    "pano_date_min": "2011-06",
+    "pano_date_max": "2025-12"
+  },
+  "points": [
+    {
+      "index": 0,
+      "id": "p00",
+      "request_lat": 29.96438,
+      "request_lon": -90.03017,
+      "status": "OK",
+      "pano_id": "u5d33lk3Lc7omlO6NUdQMA",
+      "pano_date": "2023-03",
+      "pano_lat": 29.96443480444991,
+      "pano_lon": -90.03011040053657,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 1,
+      "id": "p01",
+      "request_lat": 29.964493,
+      "request_lon": -90.030767,
+      "status": "OK",
+      "pano_id": "1kFlAZa_Duen5gMFCEaKnA",
+      "pano_date": "2018-12",
+      "pano_lat": 29.96443819117776,
+      "pano_lon": -90.03072930937813,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 2,
+      "id": "p02",
+      "request_lat": 29.964605,
+      "request_lon": -90.031364,
+      "status": "OK",
+      "pano_id": "j9jlb2WdkQ2mdaozbOwZiw",
+      "pano_date": "2016-08",
+      "pano_lat": 29.96461980105747,
+      "pano_lon": -90.03128001279457,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 3,
+      "id": "p03",
+      "request_lat": 29.964718,
+      "request_lon": -90.031962,
+      "status": "OK",
+      "pano_id": "rM5gv4kISpgJsXQXXf4s-A",
+      "pano_date": "2025-04",
+      "pano_lat": 29.96479724703452,
+      "pano_lon": -90.03189267431264,
+      "selected_for_image": true,
+      "image": {
+        "id": "live01",
+        "path": "artifacts/live_st_claude_poland_spain/images/live01_282.jpg",
+        "heading": 282,
+        "source": "api",
+        "pano_date": "2025-04"
+      },
+      "trees": [
+        {
+          "tree_id": "live01_t01",
+          "point_id": "p03",
+          "image_id": "live01",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.5977,
+          "bbox": {
+            "x": 410.0,
+            "y": 273.0,
+            "width": 44.0,
+            "height": 28.0
+          },
+          "lat": 29.96479724703452,
+          "lon": -90.03189267431264,
+          "pano_id": "rM5gv4kISpgJsXQXXf4s-A",
+          "pano_date": "2025-04"
+        }
+      ],
+      "tree_count": 1
+    },
+    {
+      "index": 4,
+      "id": "p04",
+      "request_lat": 29.96483,
+      "request_lon": -90.032559,
+      "status": "OK",
+      "pano_id": "dl0IBUNruM_nmhAVu-h_DA",
+      "pano_date": "2025-10",
+      "pano_lat": 29.96485856200035,
+      "pano_lon": -90.03261578986829,
+      "selected_for_image": true,
+      "image": {
+        "id": "live02",
+        "path": "artifacts/live_st_claude_poland_spain/images/live02_282.jpg",
+        "heading": 282,
+        "source": "api",
+        "pano_date": "2025-10"
+      },
+      "trees": [
+        {
+          "tree_id": "live02_t01",
+          "point_id": "p04",
+          "image_id": "live02",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.5585,
+          "bbox": {
+            "x": 131.0,
+            "y": 251.0,
+            "width": 93.0,
+            "height": 107.0
+          },
+          "lat": 29.96485856200035,
+          "lon": -90.03261578986829,
+          "pano_id": "dl0IBUNruM_nmhAVu-h_DA",
+          "pano_date": "2025-10"
+        },
+        {
+          "tree_id": "live02_t02",
+          "point_id": "p04",
+          "image_id": "live02",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.5006,
+          "bbox": {
+            "x": 268.0,
+            "y": 246.0,
+            "width": 98.0,
+            "height": 124.0
+          },
+          "lat": 29.96485856200035,
+          "lon": -90.03261578986829,
+          "pano_id": "dl0IBUNruM_nmhAVu-h_DA",
+          "pano_date": "2025-10"
+        },
+        {
+          "tree_id": "live02_t03",
+          "point_id": "p04",
+          "image_id": "live02",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4332,
+          "bbox": {
+            "x": 556.0,
+            "y": 263.0,
+            "width": 67.0,
+            "height": 62.0
+          },
+          "lat": 29.96485856200035,
+          "lon": -90.03261578986829,
+          "pano_id": "dl0IBUNruM_nmhAVu-h_DA",
+          "pano_date": "2025-10"
+        },
+        {
+          "tree_id": "live02_t04",
+          "point_id": "p04",
+          "image_id": "live02",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.387,
+          "bbox": {
+            "x": 35.0,
+            "y": 236.0,
+            "width": 67.0,
+            "height": 56.0
+          },
+          "lat": 29.96485856200035,
+          "lon": -90.03261578986829,
+          "pano_id": "dl0IBUNruM_nmhAVu-h_DA",
+          "pano_date": "2025-10"
+        }
+      ],
+      "tree_count": 4
+    },
+    {
+      "index": 5,
+      "id": "p05",
+      "request_lat": 29.964943,
+      "request_lon": -90.033156,
+      "status": "OK",
+      "pano_id": "DqHvExtMJbHYcgHLOEaDVw",
+      "pano_date": "2025-04",
+      "pano_lat": 29.96506506232564,
+      "pano_lon": -90.03308598252356,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 6,
+      "id": "p06",
+      "request_lat": 29.965055,
+      "request_lon": -90.033753,
+      "status": "OK",
+      "pano_id": "boZRQiMvZ8Rkcf3FH1RB0Q",
+      "pano_date": "2025-10",
+      "pano_lat": 29.96499558446417,
+      "pano_lon": -90.03362212170549,
+      "selected_for_image": true,
+      "image": {
+        "id": "live03",
+        "path": "artifacts/live_st_claude_poland_spain/images/live03_282.jpg",
+        "heading": 282,
+        "source": "api",
+        "pano_date": "2025-10"
+      },
+      "trees": [
+        {
+          "tree_id": "live03_t01",
+          "point_id": "p06",
+          "image_id": "live03",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4077,
+          "bbox": {
+            "x": 203.0,
+            "y": 252.0,
+            "width": 81.0,
+            "height": 80.0
+          },
+          "lat": 29.96499558446417,
+          "lon": -90.03362212170549,
+          "pano_id": "boZRQiMvZ8Rkcf3FH1RB0Q",
+          "pano_date": "2025-10"
+        }
+      ],
+      "tree_count": 1
+    },
+    {
+      "index": 7,
+      "id": "p07",
+      "request_lat": 29.965168,
+      "request_lon": -90.03435,
+      "status": "OK",
+      "pano_id": "CAoSFkNJSE0wb2dLRUlDQWdJQ2toSmJIZlE.",
+      "pano_date": "2018-10",
+      "pano_lat": 29.96523289565116,
+      "pano_lon": -90.0343367245149,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 8,
+      "id": "p08",
+      "request_lat": 29.965281,
+      "request_lon": -90.034947,
+      "status": "OK",
+      "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+      "pano_date": "2025-04",
+      "pano_lat": 29.96548770022111,
+      "pano_lon": -90.03493903786655,
+      "selected_for_image": true,
+      "image": {
+        "id": "live04",
+        "path": "artifacts/live_st_claude_poland_spain/images/live04_282.jpg",
+        "heading": 282,
+        "source": "api",
+        "pano_date": "2025-04"
+      },
+      "trees": [
+        {
+          "tree_id": "live04_t01",
+          "point_id": "p08",
+          "image_id": "live04",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.5502,
+          "bbox": {
+            "x": 437.0,
+            "y": 304.0,
+            "width": 28.0,
+            "height": 35.0
+          },
+          "lat": 29.96548770022111,
+          "lon": -90.03493903786655,
+          "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live04_t02",
+          "point_id": "p08",
+          "image_id": "live04",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.5153,
+          "bbox": {
+            "x": 611.0,
+            "y": 311.0,
+            "width": 29.0,
+            "height": 37.0
+          },
+          "lat": 29.96548770022111,
+          "lon": -90.03493903786655,
+          "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live04_t03",
+          "point_id": "p08",
+          "image_id": "live04",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4999,
+          "bbox": {
+            "x": 69.0,
+            "y": 276.0,
+            "width": 49.0,
+            "height": 25.0
+          },
+          "lat": 29.96548770022111,
+          "lon": -90.03493903786655,
+          "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live04_t04",
+          "point_id": "p08",
+          "image_id": "live04",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4932,
+          "bbox": {
+            "x": 480.0,
+            "y": 295.0,
+            "width": 38.0,
+            "height": 24.0
+          },
+          "lat": 29.96548770022111,
+          "lon": -90.03493903786655,
+          "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live04_t05",
+          "point_id": "p08",
+          "image_id": "live04",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4539,
+          "bbox": {
+            "x": 369.0,
+            "y": 340.0,
+            "width": 97.0,
+            "height": 38.0
+          },
+          "lat": 29.96548770022111,
+          "lon": -90.03493903786655,
+          "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live04_t06",
+          "point_id": "p08",
+          "image_id": "live04",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4344,
+          "bbox": {
+            "x": 0.0,
+            "y": 348.0,
+            "width": 126.0,
+            "height": 39.0
+          },
+          "lat": 29.96548770022111,
+          "lon": -90.03493903786655,
+          "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live04_t07",
+          "point_id": "p08",
+          "image_id": "live04",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4159,
+          "bbox": {
+            "x": 305.0,
+            "y": 293.0,
+            "width": 115.0,
+            "height": 43.0
+          },
+          "lat": 29.96548770022111,
+          "lon": -90.03493903786655,
+          "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+          "pano_date": "2025-04"
+        }
+      ],
+      "tree_count": 7
+    },
+    {
+      "index": 9,
+      "id": "p09",
+      "request_lat": 29.965393,
+      "request_lon": -90.035545,
+      "status": "OK",
+      "pano_id": "zf5eBoBPgIcKnBXTD8EN2g",
+      "pano_date": "2025-04",
+      "pano_lat": 29.9653656314266,
+      "pano_lon": -90.03548723812968,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 10,
+      "id": "p10",
+      "request_lat": 29.965506,
+      "request_lon": -90.036142,
+      "status": "OK",
+      "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+      "pano_date": "2025-04",
+      "pano_lat": 29.96574050925841,
+      "pano_lon": -90.03605787892866,
+      "selected_for_image": true,
+      "image": {
+        "id": "live05",
+        "path": "artifacts/live_st_claude_poland_spain/images/live05_282.jpg",
+        "heading": 282,
+        "source": "api",
+        "pano_date": "2025-04"
+      },
+      "trees": [
+        {
+          "tree_id": "live05_t01",
+          "point_id": "p10",
+          "image_id": "live05",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4548,
+          "bbox": {
+            "x": 0.0,
+            "y": 231.0,
+            "width": 102.0,
+            "height": 89.0
+          },
+          "lat": 29.96574050925841,
+          "lon": -90.03605787892866,
+          "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live05_t02",
+          "point_id": "p10",
+          "image_id": "live05",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.437,
+          "bbox": {
+            "x": 104.0,
+            "y": 363.0,
+            "width": 107.0,
+            "height": 49.0
+          },
+          "lat": 29.96574050925841,
+          "lon": -90.03605787892866,
+          "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live05_t03",
+          "point_id": "p10",
+          "image_id": "live05",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4364,
+          "bbox": {
+            "x": 414.0,
+            "y": 344.0,
+            "width": 226.0,
+            "height": 72.0
+          },
+          "lat": 29.96574050925841,
+          "lon": -90.03605787892866,
+          "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live05_t04",
+          "point_id": "p10",
+          "image_id": "live05",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4258,
+          "bbox": {
+            "x": 244.0,
+            "y": 94.0,
+            "width": 396.0,
+            "height": 264.0
+          },
+          "lat": 29.96574050925841,
+          "lon": -90.03605787892866,
+          "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live05_t05",
+          "point_id": "p10",
+          "image_id": "live05",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4192,
+          "bbox": {
+            "x": 0.0,
+            "y": 330.0,
+            "width": 154.0,
+            "height": 68.0
+          },
+          "lat": 29.96574050925841,
+          "lon": -90.03605787892866,
+          "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live05_t06",
+          "point_id": "p10",
+          "image_id": "live05",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4143,
+          "bbox": {
+            "x": 208.0,
+            "y": 299.0,
+            "width": 72.0,
+            "height": 44.0
+          },
+          "lat": 29.96574050925841,
+          "lon": -90.03605787892866,
+          "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+          "pano_date": "2025-04"
+        }
+      ],
+      "tree_count": 6
+    },
+    {
+      "index": 11,
+      "id": "p11",
+      "request_lat": 29.965618,
+      "request_lon": -90.036739,
+      "status": "OK",
+      "pano_id": "5K1QucNDGmnJ5Wjdl0SNTA",
+      "pano_date": "2025-04",
+      "pano_lat": 29.96558459877954,
+      "pano_lon": -90.0364611710703,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 12,
+      "id": "p12",
+      "request_lat": 29.965731,
+      "request_lon": -90.037336,
+      "status": "OK",
+      "pano_id": "IlxPiN0zVefZDZCDqBt7mg",
+      "pano_date": "2025-04",
+      "pano_lat": 29.96576026933491,
+      "pano_lon": -90.03733706244856,
+      "selected_for_image": true,
+      "image": {
+        "id": "live06",
+        "path": "artifacts/live_st_claude_poland_spain/images/live06_282.jpg",
+        "heading": 282,
+        "source": "api",
+        "pano_date": "2025-04"
+      },
+      "trees": [
+        {
+          "tree_id": "live06_t01",
+          "point_id": "p12",
+          "image_id": "live06",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4801,
+          "bbox": {
+            "x": 590.0,
+            "y": 53.0,
+            "width": 50.0,
+            "height": 64.0
+          },
+          "lat": 29.96576026933491,
+          "lon": -90.03733706244856,
+          "pano_id": "IlxPiN0zVefZDZCDqBt7mg",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live06_t02",
+          "point_id": "p12",
+          "image_id": "live06",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4276,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 506.0,
+            "height": 375.0
+          },
+          "lat": 29.96576026933491,
+          "lon": -90.03733706244856,
+          "pano_id": "IlxPiN0zVefZDZCDqBt7mg",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live06_t03",
+          "point_id": "p12",
+          "image_id": "live06",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4149,
+          "bbox": {
+            "x": 541.0,
+            "y": 314.0,
+            "width": 99.0,
+            "height": 43.0
+          },
+          "lat": 29.96576026933491,
+          "lon": -90.03733706244856,
+          "pano_id": "IlxPiN0zVefZDZCDqBt7mg",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live06_t04",
+          "point_id": "p12",
+          "image_id": "live06",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.408,
+          "bbox": {
+            "x": 224.0,
+            "y": 210.0,
+            "width": 103.0,
+            "height": 49.0
+          },
+          "lat": 29.96576026933491,
+          "lon": -90.03733706244856,
+          "pano_id": "IlxPiN0zVefZDZCDqBt7mg",
+          "pano_date": "2025-04"
+        }
+      ],
+      "tree_count": 4
+    },
+    {
+      "index": 13,
+      "id": "p13",
+      "request_lat": 29.965843,
+      "request_lon": -90.037933,
+      "status": "OK",
+      "pano_id": "O8nOp0gBgmxx92rf5pmxmQ",
+      "pano_date": "2015-06",
+      "pano_lat": 29.96593894958733,
+      "pano_lon": -90.03815685339254,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 14,
+      "id": "p14",
+      "request_lat": 29.965956,
+      "request_lon": -90.038531,
+      "status": "OK",
+      "pano_id": "VD4qbGqbUuX9R3jrxaS2iA",
+      "pano_date": "2018-12",
+      "pano_lat": 29.96585089659305,
+      "pano_lon": -90.0381832043611,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 15,
+      "id": "p15",
+      "request_lat": 29.966068,
+      "request_lon": -90.039128,
+      "status": "OK",
+      "pano_id": "8eiBYtvzqCgNI8Vjn-73ag",
+      "pano_date": "2025-04",
+      "pano_lat": 29.96604335865545,
+      "pano_lon": -90.03891947199541,
+      "selected_for_image": true,
+      "image": {
+        "id": "live07",
+        "path": "artifacts/live_st_claude_poland_spain/images/live07_282.jpg",
+        "heading": 282,
+        "source": "api",
+        "pano_date": "2025-04"
+      },
+      "trees": [
+        {
+          "tree_id": "live07_t01",
+          "point_id": "p15",
+          "image_id": "live07",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4854,
+          "bbox": {
+            "x": 380.0,
+            "y": 192.0,
+            "width": 31.0,
+            "height": 45.0
+          },
+          "lat": 29.96604335865545,
+          "lon": -90.03891947199541,
+          "pano_id": "8eiBYtvzqCgNI8Vjn-73ag",
+          "pano_date": "2025-04"
+        },
+        {
+          "tree_id": "live07_t02",
+          "point_id": "p15",
+          "image_id": "live07",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4062,
+          "bbox": {
+            "x": 301.0,
+            "y": 287.0,
+            "width": 130.0,
+            "height": 129.0
+          },
+          "lat": 29.96604335865545,
+          "lon": -90.03891947199541,
+          "pano_id": "8eiBYtvzqCgNI8Vjn-73ag",
+          "pano_date": "2025-04"
+        }
+      ],
+      "tree_count": 2
+    },
+    {
+      "index": 16,
+      "id": "p16",
+      "request_lat": 29.966181,
+      "request_lon": -90.039725,
+      "status": "OK",
+      "pano_id": "6hzfk3vo_ikzgcHZySdh7Q",
+      "pano_date": "2025-04",
+      "pano_lat": 29.96619794633402,
+      "pano_lon": -90.03973224585067,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 17,
+      "id": "p17",
+      "request_lat": 29.966294,
+      "request_lon": -90.040322,
+      "status": "OK",
+      "pano_id": "x1cyUyDPcxprhA1YwpIwOQ",
+      "pano_date": "2021-01",
+      "pano_lat": 29.96636247241883,
+      "pano_lon": -90.04062808334747,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 18,
+      "id": "p18",
+      "request_lat": 29.966406,
+      "request_lon": -90.040919,
+      "status": "OK",
+      "pano_id": "CAoSFkNJSE0wb2dLRUlDQWdJQ2toT3JoSUE.",
+      "pano_date": "2016-04",
+      "pano_lat": 29.96655849502115,
+      "pano_lon": -90.04093242215954,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 19,
+      "id": "p19",
+      "request_lat": 29.966519,
+      "request_lon": -90.041516,
+      "status": "OK",
+      "pano_id": "s5IWlxj4Dla1RiCj2kWB7g",
+      "pano_date": "2011-06",
+      "pano_lat": 29.96651703937914,
+      "pano_lon": -90.04175307352185,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 20,
+      "id": "p20",
+      "request_lat": 29.966631,
+      "request_lon": -90.042114,
+      "status": "OK",
+      "pano_id": "s5IWlxj4Dla1RiCj2kWB7g",
+      "pano_date": "2011-06",
+      "pano_lat": 29.96651703937914,
+      "pano_lon": -90.04175307352185,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 21,
+      "id": "p21",
+      "request_lat": 29.966744,
+      "request_lon": -90.042711,
+      "status": "OK",
+      "pano_id": "hJ9uJ7Ze4y8g57_DgoFUVA",
+      "pano_date": "2025-02",
+      "pano_lat": 29.96668261754148,
+      "pano_lon": -90.04262566699322,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 22,
+      "id": "p22",
+      "request_lat": 29.966856,
+      "request_lon": -90.043308,
+      "status": "OK",
+      "pano_id": "ZF7qxaDyRe1TsZXfvcYiMQ",
+      "pano_date": "2019-08",
+      "pano_lat": 29.96655610366201,
+      "pano_lon": -90.04318387797231,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 23,
+      "id": "p23",
+      "request_lat": 29.966969,
+      "request_lon": -90.043905,
+      "status": "OK",
+      "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+      "pano_date": "2025-12",
+      "pano_lat": 29.96705309679113,
+      "pano_lon": -90.04438822252766,
+      "selected_for_image": true,
+      "image": {
+        "id": "live08",
+        "path": "artifacts/live_st_claude_poland_spain/images/live08_282.jpg",
+        "heading": 282,
+        "source": "api",
+        "pano_date": "2025-12"
+      },
+      "trees": [
+        {
+          "tree_id": "live08_t01",
+          "point_id": "p23",
+          "image_id": "live08",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.504,
+          "bbox": {
+            "x": 476.0,
+            "y": 285.0,
+            "width": 33.0,
+            "height": 40.0
+          },
+          "lat": 29.96705309679113,
+          "lon": -90.04438822252766,
+          "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+          "pano_date": "2025-12"
+        },
+        {
+          "tree_id": "live08_t02",
+          "point_id": "p23",
+          "image_id": "live08",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4825,
+          "bbox": {
+            "x": 179.0,
+            "y": 356.0,
+            "width": 37.0,
+            "height": 32.0
+          },
+          "lat": 29.96705309679113,
+          "lon": -90.04438822252766,
+          "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+          "pano_date": "2025-12"
+        },
+        {
+          "tree_id": "live08_t03",
+          "point_id": "p23",
+          "image_id": "live08",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.482,
+          "bbox": {
+            "x": 557.0,
+            "y": 286.0,
+            "width": 49.0,
+            "height": 52.0
+          },
+          "lat": 29.96705309679113,
+          "lon": -90.04438822252766,
+          "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+          "pano_date": "2025-12"
+        },
+        {
+          "tree_id": "live08_t04",
+          "point_id": "p23",
+          "image_id": "live08",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4678,
+          "bbox": {
+            "x": 592.0,
+            "y": 370.0,
+            "width": 48.0,
+            "height": 30.0
+          },
+          "lat": 29.96705309679113,
+          "lon": -90.04438822252766,
+          "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+          "pano_date": "2025-12"
+        },
+        {
+          "tree_id": "live08_t05",
+          "point_id": "p23",
+          "image_id": "live08",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4465,
+          "bbox": {
+            "x": 0.0,
+            "y": 322.0,
+            "width": 57.0,
+            "height": 94.0
+          },
+          "lat": 29.96705309679113,
+          "lon": -90.04438822252766,
+          "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+          "pano_date": "2025-12"
+        },
+        {
+          "tree_id": "live08_t06",
+          "point_id": "p23",
+          "image_id": "live08",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4205,
+          "bbox": {
+            "x": 163.0,
+            "y": 77.0,
+            "width": 48.0,
+            "height": 43.0
+          },
+          "lat": 29.96705309679113,
+          "lon": -90.04438822252766,
+          "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+          "pano_date": "2025-12"
+        },
+        {
+          "tree_id": "live08_t07",
+          "point_id": "p23",
+          "image_id": "live08",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.3947,
+          "bbox": {
+            "x": 283.0,
+            "y": 197.0,
+            "width": 101.0,
+            "height": 89.0
+          },
+          "lat": 29.96705309679113,
+          "lon": -90.04438822252766,
+          "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+          "pano_date": "2025-12"
+        },
+        {
+          "tree_id": "live08_t08",
+          "point_id": "p23",
+          "image_id": "live08",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.3945,
+          "bbox": {
+            "x": 0.0,
+            "y": 86.0,
+            "width": 368.0,
+            "height": 330.0
+          },
+          "lat": 29.96705309679113,
+          "lon": -90.04438822252766,
+          "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+          "pano_date": "2025-12"
+        }
+      ],
+      "tree_count": 8
+    },
+    {
+      "index": 24,
+      "id": "p24",
+      "request_lat": 29.967082,
+      "request_lon": -90.044502,
+      "status": "OK",
+      "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+      "pano_date": "2025-12",
+      "pano_lat": 29.96705309679113,
+      "pano_lon": -90.04438822252766,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 25,
+      "id": "p25",
+      "request_lat": 29.967194,
+      "request_lon": -90.045099,
+      "status": "OK",
+      "pano_id": "CAoSF0NJSE0wb2dLRUlDQWdJQzQ4NGpuaEFF",
+      "pano_date": "2019-02",
+      "pano_lat": 29.96756329690857,
+      "pano_lon": -90.04485677891462,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 26,
+      "id": "p26",
+      "request_lat": 29.967307,
+      "request_lon": -90.045697,
+      "status": "OK",
+      "pano_id": "-NUNyJ3KQgjY6_eNAvusUQ",
+      "pano_date": "2025-12",
+      "pano_lat": 29.96741074783256,
+      "pano_lon": -90.04618433896275,
+      "selected_for_image": true,
+      "image": {
+        "id": "live09",
+        "path": "artifacts/live_st_claude_poland_spain/images/live09_282.jpg",
+        "heading": 282,
+        "source": "api",
+        "pano_date": "2025-12"
+      },
+      "trees": [
+        {
+          "tree_id": "live09_t01",
+          "point_id": "p26",
+          "image_id": "live09",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.5756,
+          "bbox": {
+            "x": 479.0,
+            "y": 129.0,
+            "width": 30.0,
+            "height": 38.0
+          },
+          "lat": 29.96741074783256,
+          "lon": -90.04618433896275,
+          "pano_id": "-NUNyJ3KQgjY6_eNAvusUQ",
+          "pano_date": "2025-12"
+        },
+        {
+          "tree_id": "live09_t02",
+          "point_id": "p26",
+          "image_id": "live09",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4524,
+          "bbox": {
+            "x": 245.0,
+            "y": 192.0,
+            "width": 395.0,
+            "height": 224.0
+          },
+          "lat": 29.96741074783256,
+          "lon": -90.04618433896275,
+          "pano_id": "-NUNyJ3KQgjY6_eNAvusUQ",
+          "pano_date": "2025-12"
+        },
+        {
+          "tree_id": "live09_t03",
+          "point_id": "p26",
+          "image_id": "live09",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4263,
+          "bbox": {
+            "x": 241.0,
+            "y": 210.0,
+            "width": 57.0,
+            "height": 69.0
+          },
+          "lat": 29.96741074783256,
+          "lon": -90.04618433896275,
+          "pano_id": "-NUNyJ3KQgjY6_eNAvusUQ",
+          "pano_date": "2025-12"
+        }
+      ],
+      "tree_count": 3
+    },
+    {
+      "index": 27,
+      "id": "p27",
+      "request_lat": 29.967419,
+      "request_lon": -90.046294,
+      "status": "OK",
+      "pano_id": "-NUNyJ3KQgjY6_eNAvusUQ",
+      "pano_date": "2025-12",
+      "pano_lat": 29.96741074783256,
+      "pano_lon": -90.04618433896275,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 28,
+      "id": "p28",
+      "request_lat": 29.967532,
+      "request_lon": -90.046891,
+      "status": "OK",
+      "pano_id": "CAoSFkNJSE0wb2dLRUlDQWdJQ0U4Nnp0RUE.",
+      "pano_date": "2018-07",
+      "pano_lat": 29.96775073355054,
+      "pano_lon": -90.04673569200348,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 29,
+      "id": "p29",
+      "request_lat": 29.967644,
+      "request_lon": -90.047488,
+      "status": "OK",
+      "pano_id": "950fot6yBx12FoupSAKFdQ",
+      "pano_date": "2025-02",
+      "pano_lat": 29.9676085700445,
+      "pano_lon": -90.04734489647161,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 30,
+      "id": "p30",
+      "request_lat": 29.967757,
+      "request_lon": -90.048085,
+      "status": "OK",
+      "pano_id": "Ty7LN0k5MK9Qwm2WaJf9MA",
+      "pano_date": "2025-02",
+      "pano_lat": 29.96786179609323,
+      "pano_lon": -90.04847328953475,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 31,
+      "id": "p31",
+      "request_lat": 29.967869,
+      "request_lon": -90.048683,
+      "status": "OK",
+      "pano_id": "Ty7LN0k5MK9Qwm2WaJf9MA",
+      "pano_date": "2025-02",
+      "pano_lat": 29.96786179609323,
+      "pano_lon": -90.04847328953475,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 32,
+      "id": "p32",
+      "request_lat": 29.967982,
+      "request_lon": -90.04928,
+      "status": "OK",
+      "pano_id": "lngfS9yNB856aOBDySrzqg",
+      "pano_date": "2025-02",
+      "pano_lat": 29.96798291854518,
+      "pano_lon": -90.04943936001025,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 33,
+      "id": "p33",
+      "request_lat": 29.968095,
+      "request_lon": -90.049877,
+      "status": "OK",
+      "pano_id": "lngfS9yNB856aOBDySrzqg",
+      "pano_date": "2025-02",
+      "pano_lat": 29.96798291854518,
+      "pano_lon": -90.04943936001025,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 34,
+      "id": "p34",
+      "request_lat": 29.968207,
+      "request_lon": -90.050474,
+      "status": "OK",
+      "pano_id": "L1iOmqa971Eb0RBhM6g6qw",
+      "pano_date": "2025-10",
+      "pano_lat": 29.96820911418117,
+      "pano_lon": -90.05037945166292,
+      "selected_for_image": true,
+      "image": {
+        "id": "live10",
+        "path": "artifacts/live_st_claude_poland_spain/images/live10_282.jpg",
+        "heading": 282,
+        "source": "api",
+        "pano_date": "2025-10"
+      },
+      "trees": [
+        {
+          "tree_id": "live10_t01",
+          "point_id": "p34",
+          "image_id": "live10",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4752,
+          "bbox": {
+            "x": 195.0,
+            "y": 259.0,
+            "width": 136.0,
+            "height": 134.0
+          },
+          "lat": 29.96820911418117,
+          "lon": -90.05037945166292,
+          "pano_id": "L1iOmqa971Eb0RBhM6g6qw",
+          "pano_date": "2025-10"
+        },
+        {
+          "tree_id": "live10_t02",
+          "point_id": "p34",
+          "image_id": "live10",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.4089,
+          "bbox": {
+            "x": 477.0,
+            "y": 342.0,
+            "width": 80.0,
+            "height": 41.0
+          },
+          "lat": 29.96820911418117,
+          "lon": -90.05037945166292,
+          "pano_id": "L1iOmqa971Eb0RBhM6g6qw",
+          "pano_date": "2025-10"
+        },
+        {
+          "tree_id": "live10_t03",
+          "point_id": "p34",
+          "image_id": "live10",
+          "species_common": "American sycamore",
+          "species_scientific": "Platanus occidentalis",
+          "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+          "confidence_detector": 0.3916,
+          "bbox": {
+            "x": 76.0,
+            "y": 255.0,
+            "width": 107.0,
+            "height": 152.0
+          },
+          "lat": 29.96820911418117,
+          "lon": -90.05037945166292,
+          "pano_id": "L1iOmqa971Eb0RBhM6g6qw",
+          "pano_date": "2025-10"
+        }
+      ],
+      "tree_count": 3
+    },
+    {
+      "index": 35,
+      "id": "p35",
+      "request_lat": 29.96832,
+      "request_lon": -90.051071,
+      "status": "OK",
+      "pano_id": "a2Hs2hSQfNcaCzCxMUfP1g",
+      "pano_date": "2025-10",
+      "pano_lat": 29.96834783668426,
+      "pano_lon": -90.05096591639023,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 36,
+      "id": "p36",
+      "request_lat": 29.968432,
+      "request_lon": -90.051668,
+      "status": "OK",
+      "pano_id": "ogXM0FZ7OE0EJ9yE4AtG0g",
+      "pano_date": "2025-02",
+      "pano_lat": 29.9683860330927,
+      "pano_lon": -90.05210674136522,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 37,
+      "id": "p37",
+      "request_lat": 29.968545,
+      "request_lon": -90.052266,
+      "status": "OK",
+      "pano_id": "CAoSFkNJSE0wb2dLRUlDQWdJQ2t4S0R4ZHc.",
+      "pano_date": "2019-01",
+      "pano_lat": 29.96861779451504,
+      "pano_lon": -90.05231242546739,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 38,
+      "id": "p38",
+      "request_lat": 29.968657,
+      "request_lon": -90.052863,
+      "status": "OK",
+      "pano_id": "PBinbt5SEXPB0tyHDmPujA",
+      "pano_date": "2025-04",
+      "pano_lat": 29.96879699648663,
+      "pano_lon": -90.05291017666049,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    },
+    {
+      "index": 39,
+      "id": "p39",
+      "request_lat": 29.96877,
+      "request_lon": -90.05346,
+      "status": "OK",
+      "pano_id": "D-cqiEcKLf_MLAfgazVK6w",
+      "pano_date": "2025-02",
+      "pano_lat": 29.96876262964492,
+      "pano_lon": -90.05347202852892,
+      "selected_for_image": false,
+      "image": null,
+      "trees": []
+    }
+  ],
+  "trees": [
+    {
+      "tree_id": "live01_t01",
+      "point_id": "p03",
+      "image_id": "live01",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.5977,
+      "bbox": {
+        "x": 410.0,
+        "y": 273.0,
+        "width": 44.0,
+        "height": 28.0
+      },
+      "lat": 29.96479724703452,
+      "lon": -90.03189267431264,
+      "pano_id": "rM5gv4kISpgJsXQXXf4s-A",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live02_t01",
+      "point_id": "p04",
+      "image_id": "live02",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.5585,
+      "bbox": {
+        "x": 131.0,
+        "y": 251.0,
+        "width": 93.0,
+        "height": 107.0
+      },
+      "lat": 29.96485856200035,
+      "lon": -90.03261578986829,
+      "pano_id": "dl0IBUNruM_nmhAVu-h_DA",
+      "pano_date": "2025-10"
+    },
+    {
+      "tree_id": "live02_t02",
+      "point_id": "p04",
+      "image_id": "live02",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.5006,
+      "bbox": {
+        "x": 268.0,
+        "y": 246.0,
+        "width": 98.0,
+        "height": 124.0
+      },
+      "lat": 29.96485856200035,
+      "lon": -90.03261578986829,
+      "pano_id": "dl0IBUNruM_nmhAVu-h_DA",
+      "pano_date": "2025-10"
+    },
+    {
+      "tree_id": "live02_t03",
+      "point_id": "p04",
+      "image_id": "live02",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4332,
+      "bbox": {
+        "x": 556.0,
+        "y": 263.0,
+        "width": 67.0,
+        "height": 62.0
+      },
+      "lat": 29.96485856200035,
+      "lon": -90.03261578986829,
+      "pano_id": "dl0IBUNruM_nmhAVu-h_DA",
+      "pano_date": "2025-10"
+    },
+    {
+      "tree_id": "live02_t04",
+      "point_id": "p04",
+      "image_id": "live02",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.387,
+      "bbox": {
+        "x": 35.0,
+        "y": 236.0,
+        "width": 67.0,
+        "height": 56.0
+      },
+      "lat": 29.96485856200035,
+      "lon": -90.03261578986829,
+      "pano_id": "dl0IBUNruM_nmhAVu-h_DA",
+      "pano_date": "2025-10"
+    },
+    {
+      "tree_id": "live03_t01",
+      "point_id": "p06",
+      "image_id": "live03",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4077,
+      "bbox": {
+        "x": 203.0,
+        "y": 252.0,
+        "width": 81.0,
+        "height": 80.0
+      },
+      "lat": 29.96499558446417,
+      "lon": -90.03362212170549,
+      "pano_id": "boZRQiMvZ8Rkcf3FH1RB0Q",
+      "pano_date": "2025-10"
+    },
+    {
+      "tree_id": "live04_t01",
+      "point_id": "p08",
+      "image_id": "live04",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.5502,
+      "bbox": {
+        "x": 437.0,
+        "y": 304.0,
+        "width": 28.0,
+        "height": 35.0
+      },
+      "lat": 29.96548770022111,
+      "lon": -90.03493903786655,
+      "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live04_t02",
+      "point_id": "p08",
+      "image_id": "live04",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.5153,
+      "bbox": {
+        "x": 611.0,
+        "y": 311.0,
+        "width": 29.0,
+        "height": 37.0
+      },
+      "lat": 29.96548770022111,
+      "lon": -90.03493903786655,
+      "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live04_t03",
+      "point_id": "p08",
+      "image_id": "live04",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4999,
+      "bbox": {
+        "x": 69.0,
+        "y": 276.0,
+        "width": 49.0,
+        "height": 25.0
+      },
+      "lat": 29.96548770022111,
+      "lon": -90.03493903786655,
+      "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live04_t04",
+      "point_id": "p08",
+      "image_id": "live04",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4932,
+      "bbox": {
+        "x": 480.0,
+        "y": 295.0,
+        "width": 38.0,
+        "height": 24.0
+      },
+      "lat": 29.96548770022111,
+      "lon": -90.03493903786655,
+      "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live04_t05",
+      "point_id": "p08",
+      "image_id": "live04",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4539,
+      "bbox": {
+        "x": 369.0,
+        "y": 340.0,
+        "width": 97.0,
+        "height": 38.0
+      },
+      "lat": 29.96548770022111,
+      "lon": -90.03493903786655,
+      "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live04_t06",
+      "point_id": "p08",
+      "image_id": "live04",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4344,
+      "bbox": {
+        "x": 0.0,
+        "y": 348.0,
+        "width": 126.0,
+        "height": 39.0
+      },
+      "lat": 29.96548770022111,
+      "lon": -90.03493903786655,
+      "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live04_t07",
+      "point_id": "p08",
+      "image_id": "live04",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4159,
+      "bbox": {
+        "x": 305.0,
+        "y": 293.0,
+        "width": 115.0,
+        "height": 43.0
+      },
+      "lat": 29.96548770022111,
+      "lon": -90.03493903786655,
+      "pano_id": "Y8RFXwd_Mi-p0MWdIKZzcw",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live05_t01",
+      "point_id": "p10",
+      "image_id": "live05",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4548,
+      "bbox": {
+        "x": 0.0,
+        "y": 231.0,
+        "width": 102.0,
+        "height": 89.0
+      },
+      "lat": 29.96574050925841,
+      "lon": -90.03605787892866,
+      "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live05_t02",
+      "point_id": "p10",
+      "image_id": "live05",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.437,
+      "bbox": {
+        "x": 104.0,
+        "y": 363.0,
+        "width": 107.0,
+        "height": 49.0
+      },
+      "lat": 29.96574050925841,
+      "lon": -90.03605787892866,
+      "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live05_t03",
+      "point_id": "p10",
+      "image_id": "live05",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4364,
+      "bbox": {
+        "x": 414.0,
+        "y": 344.0,
+        "width": 226.0,
+        "height": 72.0
+      },
+      "lat": 29.96574050925841,
+      "lon": -90.03605787892866,
+      "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live05_t04",
+      "point_id": "p10",
+      "image_id": "live05",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4258,
+      "bbox": {
+        "x": 244.0,
+        "y": 94.0,
+        "width": 396.0,
+        "height": 264.0
+      },
+      "lat": 29.96574050925841,
+      "lon": -90.03605787892866,
+      "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live05_t05",
+      "point_id": "p10",
+      "image_id": "live05",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4192,
+      "bbox": {
+        "x": 0.0,
+        "y": 330.0,
+        "width": 154.0,
+        "height": 68.0
+      },
+      "lat": 29.96574050925841,
+      "lon": -90.03605787892866,
+      "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live05_t06",
+      "point_id": "p10",
+      "image_id": "live05",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4143,
+      "bbox": {
+        "x": 208.0,
+        "y": 299.0,
+        "width": 72.0,
+        "height": 44.0
+      },
+      "lat": 29.96574050925841,
+      "lon": -90.03605787892866,
+      "pano_id": "qS5ns1aM42G9HWKGVB4WvA",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live06_t01",
+      "point_id": "p12",
+      "image_id": "live06",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4801,
+      "bbox": {
+        "x": 590.0,
+        "y": 53.0,
+        "width": 50.0,
+        "height": 64.0
+      },
+      "lat": 29.96576026933491,
+      "lon": -90.03733706244856,
+      "pano_id": "IlxPiN0zVefZDZCDqBt7mg",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live06_t02",
+      "point_id": "p12",
+      "image_id": "live06",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4276,
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 506.0,
+        "height": 375.0
+      },
+      "lat": 29.96576026933491,
+      "lon": -90.03733706244856,
+      "pano_id": "IlxPiN0zVefZDZCDqBt7mg",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live06_t03",
+      "point_id": "p12",
+      "image_id": "live06",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4149,
+      "bbox": {
+        "x": 541.0,
+        "y": 314.0,
+        "width": 99.0,
+        "height": 43.0
+      },
+      "lat": 29.96576026933491,
+      "lon": -90.03733706244856,
+      "pano_id": "IlxPiN0zVefZDZCDqBt7mg",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live06_t04",
+      "point_id": "p12",
+      "image_id": "live06",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.408,
+      "bbox": {
+        "x": 224.0,
+        "y": 210.0,
+        "width": 103.0,
+        "height": 49.0
+      },
+      "lat": 29.96576026933491,
+      "lon": -90.03733706244856,
+      "pano_id": "IlxPiN0zVefZDZCDqBt7mg",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live07_t01",
+      "point_id": "p15",
+      "image_id": "live07",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4854,
+      "bbox": {
+        "x": 380.0,
+        "y": 192.0,
+        "width": 31.0,
+        "height": 45.0
+      },
+      "lat": 29.96604335865545,
+      "lon": -90.03891947199541,
+      "pano_id": "8eiBYtvzqCgNI8Vjn-73ag",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live07_t02",
+      "point_id": "p15",
+      "image_id": "live07",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4062,
+      "bbox": {
+        "x": 301.0,
+        "y": 287.0,
+        "width": 130.0,
+        "height": 129.0
+      },
+      "lat": 29.96604335865545,
+      "lon": -90.03891947199541,
+      "pano_id": "8eiBYtvzqCgNI8Vjn-73ag",
+      "pano_date": "2025-04"
+    },
+    {
+      "tree_id": "live08_t01",
+      "point_id": "p23",
+      "image_id": "live08",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.504,
+      "bbox": {
+        "x": 476.0,
+        "y": 285.0,
+        "width": 33.0,
+        "height": 40.0
+      },
+      "lat": 29.96705309679113,
+      "lon": -90.04438822252766,
+      "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+      "pano_date": "2025-12"
+    },
+    {
+      "tree_id": "live08_t02",
+      "point_id": "p23",
+      "image_id": "live08",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4825,
+      "bbox": {
+        "x": 179.0,
+        "y": 356.0,
+        "width": 37.0,
+        "height": 32.0
+      },
+      "lat": 29.96705309679113,
+      "lon": -90.04438822252766,
+      "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+      "pano_date": "2025-12"
+    },
+    {
+      "tree_id": "live08_t03",
+      "point_id": "p23",
+      "image_id": "live08",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.482,
+      "bbox": {
+        "x": 557.0,
+        "y": 286.0,
+        "width": 49.0,
+        "height": 52.0
+      },
+      "lat": 29.96705309679113,
+      "lon": -90.04438822252766,
+      "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+      "pano_date": "2025-12"
+    },
+    {
+      "tree_id": "live08_t04",
+      "point_id": "p23",
+      "image_id": "live08",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4678,
+      "bbox": {
+        "x": 592.0,
+        "y": 370.0,
+        "width": 48.0,
+        "height": 30.0
+      },
+      "lat": 29.96705309679113,
+      "lon": -90.04438822252766,
+      "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+      "pano_date": "2025-12"
+    },
+    {
+      "tree_id": "live08_t05",
+      "point_id": "p23",
+      "image_id": "live08",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4465,
+      "bbox": {
+        "x": 0.0,
+        "y": 322.0,
+        "width": 57.0,
+        "height": 94.0
+      },
+      "lat": 29.96705309679113,
+      "lon": -90.04438822252766,
+      "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+      "pano_date": "2025-12"
+    },
+    {
+      "tree_id": "live08_t06",
+      "point_id": "p23",
+      "image_id": "live08",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4205,
+      "bbox": {
+        "x": 163.0,
+        "y": 77.0,
+        "width": 48.0,
+        "height": 43.0
+      },
+      "lat": 29.96705309679113,
+      "lon": -90.04438822252766,
+      "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+      "pano_date": "2025-12"
+    },
+    {
+      "tree_id": "live08_t07",
+      "point_id": "p23",
+      "image_id": "live08",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.3947,
+      "bbox": {
+        "x": 283.0,
+        "y": 197.0,
+        "width": 101.0,
+        "height": 89.0
+      },
+      "lat": 29.96705309679113,
+      "lon": -90.04438822252766,
+      "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+      "pano_date": "2025-12"
+    },
+    {
+      "tree_id": "live08_t08",
+      "point_id": "p23",
+      "image_id": "live08",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.3945,
+      "bbox": {
+        "x": 0.0,
+        "y": 86.0,
+        "width": 368.0,
+        "height": 330.0
+      },
+      "lat": 29.96705309679113,
+      "lon": -90.04438822252766,
+      "pano_id": "KwNRjcNs6eMZ47Y_dRrQHg",
+      "pano_date": "2025-12"
+    },
+    {
+      "tree_id": "live09_t01",
+      "point_id": "p26",
+      "image_id": "live09",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.5756,
+      "bbox": {
+        "x": 479.0,
+        "y": 129.0,
+        "width": 30.0,
+        "height": 38.0
+      },
+      "lat": 29.96741074783256,
+      "lon": -90.04618433896275,
+      "pano_id": "-NUNyJ3KQgjY6_eNAvusUQ",
+      "pano_date": "2025-12"
+    },
+    {
+      "tree_id": "live09_t02",
+      "point_id": "p26",
+      "image_id": "live09",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4524,
+      "bbox": {
+        "x": 245.0,
+        "y": 192.0,
+        "width": 395.0,
+        "height": 224.0
+      },
+      "lat": 29.96741074783256,
+      "lon": -90.04618433896275,
+      "pano_id": "-NUNyJ3KQgjY6_eNAvusUQ",
+      "pano_date": "2025-12"
+    },
+    {
+      "tree_id": "live09_t03",
+      "point_id": "p26",
+      "image_id": "live09",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4263,
+      "bbox": {
+        "x": 241.0,
+        "y": 210.0,
+        "width": 57.0,
+        "height": 69.0
+      },
+      "lat": 29.96741074783256,
+      "lon": -90.04618433896275,
+      "pano_id": "-NUNyJ3KQgjY6_eNAvusUQ",
+      "pano_date": "2025-12"
+    },
+    {
+      "tree_id": "live10_t01",
+      "point_id": "p34",
+      "image_id": "live10",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4752,
+      "bbox": {
+        "x": 195.0,
+        "y": 259.0,
+        "width": 136.0,
+        "height": 134.0
+      },
+      "lat": 29.96820911418117,
+      "lon": -90.05037945166292,
+      "pano_id": "L1iOmqa971Eb0RBhM6g6qw",
+      "pano_date": "2025-10"
+    },
+    {
+      "tree_id": "live10_t02",
+      "point_id": "p34",
+      "image_id": "live10",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.4089,
+      "bbox": {
+        "x": 477.0,
+        "y": 342.0,
+        "width": 80.0,
+        "height": 41.0
+      },
+      "lat": 29.96820911418117,
+      "lon": -90.05037945166292,
+      "pano_id": "L1iOmqa971Eb0RBhM6g6qw",
+      "pano_date": "2025-10"
+    },
+    {
+      "tree_id": "live10_t03",
+      "point_id": "p34",
+      "image_id": "live10",
+      "species_common": "American sycamore",
+      "species_scientific": "Platanus occidentalis",
+      "identification_note": "Labeled American sycamore for this first-run data file (St. Claude corridor).",
+      "confidence_detector": 0.3916,
+      "bbox": {
+        "x": 76.0,
+        "y": 255.0,
+        "width": 107.0,
+        "height": 152.0
+      },
+      "lat": 29.96820911418117,
+      "lon": -90.05037945166292,
+      "pano_id": "L1iOmqa971Eb0RBhM6g6qw",
+      "pano_date": "2025-10"
+    }
+  ]
+}
